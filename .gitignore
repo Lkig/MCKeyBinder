@@ -1,0 +1,27 @@
+# 自动生成的数据目录：主配置、备份、缓存、设置、同步基线
+# （里面是你自己的键位，不该进仓库，也方便「删掉它 = 恢复出厂设置」）
+/data/
+
+# 本机生成的启动快捷方式：里面写死了 python.exe 和项目的绝对路径
+*.lnk
+
+# 调试用的临时产物
+assets/_*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 打包 exe 的产物（见 tools/build_exe.py）
+/dist/
+/_build/
+*.spec
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini

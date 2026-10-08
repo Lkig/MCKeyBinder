@@ -1,0 +1,9 @@
+# 仓库里统一存 LF；Windows 上的批处理必须保持 CRLF，否则 cmd 解析会出问题
+* text=auto
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.pyw text eol=crlf
+
+# 二进制资源
+*.png binary
+*.ico binary

@@ -1,0 +1,5 @@
+# 只有打包 exe 才需要，程序本身跑起来是零第三方依赖。
+#   python -m venv .venv
+#   .venv\Scripts\python -m pip install -r requirements-build.txt
+#   .venv\Scripts\python tools\build_exe.py
+pyinstaller>=6.0
